@@ -1,4 +1,8 @@
 function orient(point, origin) {
+  if (!origin) {
+    origin = { x: null, y: null };
+  }
+
   var x0 = origin.x;
   var y0 = origin.y;
 
